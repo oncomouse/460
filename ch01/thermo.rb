@@ -39,6 +39,6 @@ CLI::UI::Frame.open("{{bold: Cooking to #{target_temp}°F}}", color: :green) do
     end
   end
   sg.wait
-  puts CLI::UI.fmt '{{*}} Your roast is finished!'
+  puts CLI::UI.fmt '{{*}} Target Temperature Reached!'
   # puts CLI::UI.fmt "[ #{fmt_temps(output)} ]"
 end
